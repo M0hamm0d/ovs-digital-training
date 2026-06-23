@@ -25,6 +25,18 @@ export const REAL_QUESTIONS = {
       options: { A: '{2}', B: '{1, 3, 5, 7}', C: '{4, 6, 8}', D: '{}' },
       correctAnswer: 'A',
     },
+    {
+      id: 'math-q4',
+      text: 'Find the 4th term of a Geometric Progression (G.P.) whose first term is 3 and common ratio is 2.',
+      options: { A: '18', B: '24', C: '48', D: '54' },
+      correctAnswer: 'B',
+    },
+    {
+      id: 'math-q5',
+      text: 'Calculate the mean of the following set of scores: 4, 7, 8, 9, and 12.',
+      options: { A: '7', B: '8', C: '9', D: '10' },
+      correctAnswer: 'B',
+    },
   ],
   'English Language': [
     {
@@ -43,6 +55,18 @@ export const REAL_QUESTIONS = {
       id: 'eng-q3',
       text: 'Identify the correct option to fill the gap: Neither the principal nor the teachers _______ present at the meeting yesterday.',
       options: { A: 'is', B: 'was', C: 'were', D: 'are' },
+      correctAnswer: 'C',
+    },
+    {
+      id: 'eng-q4',
+      text: 'Choose the option that best completes the sentence: By the time the police arrived, the thieves _______ escaped.',
+      options: { A: 'have', B: 'had', C: 'has', D: 'were' },
+      correctAnswer: 'B',
+    },
+    {
+      id: 'eng-q5',
+      text: 'Select the option that has the same vowel sound as the underlined word: This **seat** is reserved.',
+      options: { A: 'sit', B: 'great', C: 'meet', D: 'set' },
       correctAnswer: 'C',
     },
   ],
@@ -65,6 +89,23 @@ export const REAL_QUESTIONS = {
       options: { A: 'Boiling', B: 'Evaporation', C: 'Sublimation', D: 'Condensation' },
       correctAnswer: 'B',
     },
+    {
+      id: 'phy-q4',
+      text: 'The resistance of a wire depends on all the following factor EXCEPT:',
+      options: { A: 'Length', B: 'Cross-sectional area', C: 'Mass', D: 'Temperature' },
+      correctAnswer: 'C',
+    },
+    {
+      id: 'phy-q5',
+      text: 'An object is placed 10 cm in front of a concave mirror of focal length 15 cm. The image formed is:',
+      options: {
+        A: 'Real and magnified',
+        B: 'Virtual and magnified',
+        C: 'Real and diminished',
+        D: 'Virtual and diminished',
+      },
+      correctAnswer: 'B',
+    },
   ],
   Chemistry: [
     {
@@ -83,6 +124,23 @@ export const REAL_QUESTIONS = {
       id: 'chm-q3',
       text: 'What is the oxidation number of sulfur in $\\text{H}_2\\text{SO}_4$?',
       options: { A: '+2', B: '+4', C: '+6', D: '-2' },
+      correctAnswer: 'C',
+    },
+    {
+      id: 'chm-q4',
+      text: 'Which type of chemical bond is formed by the sharing of electrons between two non-metal atoms?',
+      options: { A: 'Ionic bond', B: 'Covalent bond', C: 'Metallic bond', D: 'Dative bond' },
+      correctAnswer: 'B',
+    },
+    {
+      id: 'chm-q5',
+      text: "According to Le Chatelier's principle, an increase in pressure on a gaseous system at equilibrium will favor the reaction that results in:",
+      options: {
+        A: 'A decrease in temperature',
+        B: 'An increase in volume',
+        C: 'A decrease in the number of molecules',
+        D: 'An increase in the number of molecules',
+      },
       correctAnswer: 'C',
     },
   ],
@@ -115,6 +173,28 @@ export const REAL_QUESTIONS = {
       },
       correctAnswer: 'C',
     },
+    {
+      id: 'com-q4',
+      text: 'A market structure where there are very many buyers and sellers dealing in homogeneous products is called:',
+      options: {
+        A: 'Monopoly',
+        B: 'Oligopoly',
+        C: 'Perfect Competition',
+        D: 'Monopolistic Competition',
+      },
+      correctAnswer: 'C',
+    },
+    {
+      id: 'com-q5',
+      text: 'Which function of commercial banks involves allowing a customer to draw more than the actual balance in their current account?',
+      options: {
+        A: 'Fixed Deposit',
+        B: 'Bank Overdraft',
+        C: 'Discounting Bills',
+        D: 'Letters of Credit',
+      },
+      correctAnswer: 'B',
+    },
   ],
   Accounting: [
     {
@@ -145,6 +225,23 @@ export const REAL_QUESTIONS = {
       options: { A: '$\\$10,000$', B: '$\\$30,000$', C: '$\\$40,000$', D: '$\\$60,000$' },
       correctAnswer: 'C',
     },
+    {
+      id: 'acc-q4',
+      text: 'Which of the following books of original entry is used to record items bought on credit?',
+      options: { A: 'Sales Journal', B: 'Purchases Journal', C: 'Cash Book', D: 'General Journal' },
+      correctAnswer: 'B',
+    },
+    {
+      id: 'acc-q5',
+      text: 'The golden rule of double-entry bookkeeping states that you should:',
+      options: {
+        A: 'Debit the giver and credit the receiver',
+        B: 'Debit the receiver and credit the giver',
+        C: 'Debit expenses and credit assets',
+        D: 'Debit income and credit liabilities',
+      },
+      correctAnswer: 'B',
+    },
   ],
   Government: [
     {
@@ -165,6 +262,23 @@ export const REAL_QUESTIONS = {
       options: { A: 'NUC', B: 'INEC', C: 'EFCC', D: 'NPC' },
       correctAnswer: 'B',
     },
+    {
+      id: 'gov-q4',
+      text: 'The core component of the Principle of Separation of Powers is intended to prevent:',
+      options: {
+        A: 'Checks and balances',
+        B: 'Tyranny and dictatorship',
+        C: 'Rule of law',
+        D: 'Political parties',
+      },
+      correctAnswer: 'B',
+    },
+    {
+      id: 'gov-q5',
+      text: 'Which branch of government is primarily responsible for interpreting the laws of the state?',
+      options: { A: 'Executive', B: 'Legislature', C: 'Judiciary', D: 'Civil Service' },
+      correctAnswer: 'C',
+    },
   ],
   Literature: [
     {
@@ -183,6 +297,18 @@ export const REAL_QUESTIONS = {
       id: 'lit-q3',
       text: 'A poem written in praise of a person, object, or event, often marked by serious and elevated tone, is an:',
       options: { A: 'Elegy', B: 'Epic', C: 'Ode', D: 'Ballad' },
+      correctAnswer: 'C',
+    },
+    {
+      id: 'lit-q4',
+      text: 'A sudden turning point or reversal of fortune in a dramatic or narrative work is called:',
+      options: { A: 'Climax', B: 'Peripeteia', C: 'Denouement', D: 'Exposition' },
+      correctAnswer: 'B',
+    },
+    {
+      id: 'lit-q5',
+      text: 'What literary genre is primarily intended to be performed on stage before an audience?',
+      options: { A: 'Prose fiction', B: 'Poetry', C: 'Drama', D: 'Biography' },
       correctAnswer: 'C',
     },
   ],
